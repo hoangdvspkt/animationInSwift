@@ -14,6 +14,8 @@
 		3BF8D6BA1E9E124800613866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF8D6B81E9E124800613866 /* LaunchScreen.storyboard */; };
 		3BF8D6C51E9E124800613866 /* animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D6C41E9E124800613866 /* animationTests.swift */; };
 		3BF8D6D01E9E124800613866 /* animationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D6CF1E9E124800613866 /* animationUITests.swift */; };
+		3BF8D6DE1E9E161900613866 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D6DD1E9E161900613866 /* TableViewController.swift */; };
+		3BF8D6E01E9E166E00613866 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D6DF1E9E166E00613866 /* ButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3BF8D6CB1E9E124800613866 /* animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF8D6CF1E9E124800613866 /* animationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationUITests.swift; sourceTree = "<group>"; };
 		3BF8D6D11E9E124800613866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF8D6DD1E9E161900613866 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3BF8D6DF1E9E166E00613866 /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3BF8D6B61E9E124800613866 /* Assets.xcassets */,
 				3BF8D6B81E9E124800613866 /* LaunchScreen.storyboard */,
 				3BF8D6BB1E9E124800613866 /* Info.plist */,
+				3BF8D6DD1E9E161900613866 /* TableViewController.swift */,
+				3BF8D6DF1E9E166E00613866 /* ButtonViewController.swift */,
 			);
 			path = animation;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BF8D6E01E9E166E00613866 /* ButtonViewController.swift in Sources */,
 				3BF8D6B21E9E124700613866 /* ViewController.swift in Sources */,
+				3BF8D6DE1E9E161900613866 /* TableViewController.swift in Sources */,
 				3BF8D6B01E9E124700613866 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
